@@ -181,7 +181,7 @@ selectBtn__second__box__size_three.addEventListener('click', ()=>optionMenu__sec
 options__second__box__size_three.forEach(item=>{
  item.addEventListener('click' , ()=>{
      let selectedOption =item.querySelector('.option__text__second__box__size_three').innerText;
-     select__text__second__box__size.innerText= selectedOption;
+     select__text__second__box__size_three.innerText= selectedOption;
      optionMenu__second__box__size_three.classList.remove('active');
  })
 });
